@@ -29,7 +29,7 @@ function Listing() {
             })
     }, [pageNumber]);
 
-    const handlePageChange = (newPageNumber : number)=> {
+    const handlePageChange = (newPageNumber: number) => {
         setPageNumber(newPageNumber);
     }
 
@@ -50,5 +50,4 @@ function Listing() {
         </>
     );
 }
-
 export default Listing;
